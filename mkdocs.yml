@@ -9,7 +9,9 @@ copyright: Copyright &copy; 2024 Prashant Dixit
 theme:
   name: material
   custom_dir: overrides
+  favicon: images/favicon.png
   icon:
+    logo: fontawesome/solid/meteor
     repo: fontawesome/brands/github
     edit: material/pencil 
     view: material/eye
@@ -127,12 +129,14 @@ nav:
   - Home: 
     - Introductions: 'index.md'
     - Writing: "writing/index.md"
-    - Contributions: "contribution.md"
-    - Contact: 'contact.md'
+    - Contributions: "contributions/index.md"
+    - Contact: 'contact/index.md'
   - Writing:
     - "writing/index.md"
   - Contributions:
-    - "contribution.md"
+    - "contributions/index.md"
+  - Contact:
+    - "contact/index.md"
   
 plugins:
   - social
