@@ -13,6 +13,8 @@ authors:
 
 Cambrian-1 is a family of multimodal LLMs (MLLMs) designed with a vision-centric approach. While stronger language models can boost multimodal capabilities, the design choices for vision components are often insufficiently explored and disconnected from visual representation learning research.
 
+![alt text](img/cambrian/cambrian-result-1.png)
+
 Cambrian-1 is built on five key pillars, each providing important insights into the design of multimodal LLMs (MLLMs):
 
 1. ***Visual Representations***: They explore various vision encoders and their combinations.
