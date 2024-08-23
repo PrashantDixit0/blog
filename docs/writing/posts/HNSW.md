@@ -21,6 +21,8 @@ There are three main types of ANN search algorithms:
 
 All graph-based search algorithms rely on the idea of a proximity graph, where the graph is built based on the proximity of data points, measured by their Euclidean distances. Jumping straight to HNSW might be complicated, so first, we'll explain two important algorithms that help understand HNSW: the ***Skip List*** and ***Navigable Small World (NSW) Graphs***, which are the predecessors of HNSW.
 
+<!-- more -->
+
 ## *Skip List*
 Skip List allows fast search capabilities similar to a sorted array but it will enable quick new element insertion, unlike sorted arrays.  In simple words, the [Skip list](https://brilliant.org/wiki/skip-lists/#:~:text=The%20skip%20list%20is%20a,elements%2C%20but%20no%20new%20elements.) is a multilayer linked list that stores a sorted list of elements where the top layer has links that skip over many nodes, while each lower layer skips over fewer nodes.
 
@@ -31,7 +33,7 @@ To search in the skip list, we start at the top layer with the longest skips and
   <figcaption>Skip list, a Probabilistic data structure</figcaption>
 </figure>
 
- 
+
 In the image above, the blue nodes represent the nodes that are compared to find our target value of 17, and the yellow node represents the found target.
 
 HNSW also uses a similar layered structure, with high-degree nodes in the top layers for quick searches and low-degree nodes in the lower layers for more accurate searches.

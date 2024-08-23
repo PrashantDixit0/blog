@@ -23,10 +23,13 @@ We’ll also see the performance of PQ and IVFPQ in terms of memory and cover an
 
 Quantization is a process used for dimensional reduction without losing important information.
 
+<!-- more -->
+
 <figure markdown="span">
   ![Image title](img/ivfpq/image.png)
   <figcaption>Quantization: Dimensionality Reduction</figcaption>
 </figure>
+
 
 ## How does Product Quantization work?
 Product Quantization can be broken down into steps listed below:

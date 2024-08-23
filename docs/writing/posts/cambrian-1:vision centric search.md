@@ -27,7 +27,10 @@ We'll learn how Cambrian-1 works with an example of Vision-Centric Exploration o
 1. Performing vector search to get related images
 2. Use obtained images for vision-centric exploration
 
+<!-- more -->
+
 ![alt text](./img/cambrian/cambrian-result-1.png)
+
 
 ## Implementation
 This blog contains code snippets, for the whole code with their description use checkout Kaggle Notebook and run it with your own prompt
