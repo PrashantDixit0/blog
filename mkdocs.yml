@@ -1,9 +1,10 @@
 site_name: Prashant's Insights
 site_author: Prashant Dixit
 site_description: >-
-  Notes about my hobbies and other things I find interesting.
+  Publications and Contributions.
 repo_name: blog
 repo_url: https://github.com/PrashantDixit0/blog/
+site_url: https://prashantdixit.dev/
 edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2024 Prashant Dixit 
 theme:
