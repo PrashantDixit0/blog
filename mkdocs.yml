@@ -140,7 +140,6 @@ nav:
     - "contact/index.md"
   
 plugins:
-  - social
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
@@ -160,6 +159,18 @@ plugins:
       post_date_format: yyyy/MM/dd
       post_url_format: "{date}/{slug}"
       authors_file: "{blog}/.authors.yml"
+  - link-embeds:
+      enabled: true
+      name_default: "Untitled Link"
+      desc_default: "No description found"
+      image_default: "url.com"
+      image_disabled: false
+      favicon_default: "url.com"
+      favicon_disabled: true
+      favicon_size: 25
+      target: "blank"
+      accent: "FFFFFF1A"
+      verbose: true
 extra:
   analytics:
     provider: google
@@ -171,6 +182,8 @@ extra:
       link: https://x.com/Prashant_Dixit0
     - icon: fontawesome/brands/github
       link: https://github.com/PrashantDixit0
+extra_css:
+  - stylesheets/link_embeds.css
 extra_javascript:
   - javascripts/mathjax.js
   - javascripts/analytics.js
