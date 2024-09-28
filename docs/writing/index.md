@@ -7,4 +7,4 @@ For RAG or LLM related posts, You can check out the categories labels in the sid
 
 ## Videos
 
-- [Movie Genre Prediction](https://www.youtube.com/watch?v=0EvA2iJEGNg)
+🤗 [Movie Genre Prediction with Abhishek Thakur](https://www.youtube.com/watch?v=Ycbi4uXJq4k)

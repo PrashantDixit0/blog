@@ -1,6 +1,8 @@
 icon:simple/opensourcehardware
 # Contributions
 
+Here are some of my open-source contributions and integrations listed, [Get in touch](mailto:prasantdixit987@gmail.com) with me for contributing into your project or if you are starting any ambitious project.
+
 **[Vector Recipes LanceDB](https://github.com/lancedb/vectordb-recipes)**
 
 ```embed
