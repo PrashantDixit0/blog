@@ -13,6 +13,8 @@ authors:
 For chatbots to be effective in domains like legal advice or customer support, they require relevant background information. Retrieval-Augmented Generation (RAG) enhances responses by pulling information from knowledge bases and combining it with the user’s prompt, improving the model's output. However, traditional RAG often end up losing crucial context, leading to missing relevant information from the knowledge base.
 Some might suggest that writing very specific and lengthy context prompts could solve the issue of retrieving relevant information from a knowledge base. But this approach only works for smaller knowledge bases. You'll need a more efficient and scalable solution as your knowledge base expands.
 
+<a href="https://colab.research.google.com/github/lancedb/vectordb-recipes/blob/main/tutorials/RAG-with_MatryoshkaEmbed-Llamaindex/RAG_with_MatryoshkaEmbedding_and_Llamaindex.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
 ## Contextual Retrieval
 In traditional RAG, a basic chunking method creates vector embeddings for each chunk separately, and RAG systems use these embeddings to find chunks that match the query. However, this approach has a problem: it loses the context of the original document. 
 In the past, several methods have been proposed to improve retrieval using context. These **include adding generic document summaries to chunks,  ***[Hypothetical Document Embedding (HyDE)](https://lancedb.github.io/lancedb/rag/advanced_techniques/hyde/)***, and summary-based indexing**.
@@ -120,7 +122,11 @@ Learn more about [Improving (almost) any retriever with LanceDB hybrid search an
 ## Conclusion
 Using the combinations of techniques and steps described — proper chunking, embedding models, Contextual Retrieval, and reranking with top-K results across various datasets—here’s a summary of our findings:
 1. Hybrid search with BM25 outperforms vector search alone.
+
 2. OpenAI and Gemini are among the best embedding models.
+
 3. Passing the top-20 to top-30 chunks to the model is more effective than using just the top-10 or top-5.
+
 4. Adding context to chunks significantly improves retrieval accuracy and enables Contextual Retrieval.
+
 5. [LanceDB Reranking API](https://lancedb.github.io/lancedb/reranking/) yields better results than not using it.
