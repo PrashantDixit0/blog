@@ -35,6 +35,8 @@ In the case of  **Legal Documents**
 
 ***Solution***: Contextual Retrieval can enhance the chunk by including key identifiers, such as “In the 2021 case of Johnson v. Smith in the New York District Court, the court ruled in favor of Johnson, awarding damages of $50,000.” This added context helps ensure accurate retrieval and interpretation.
 
+<!-- more -->
+
 In the case of **Customer Support**
 
 ***Scenario***: A customer asks, "What is the return policy for electronics?"
