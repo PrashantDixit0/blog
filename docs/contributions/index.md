@@ -3,6 +3,18 @@ icon:simple/opensourcehardware
 
 Here are some of my open-source contributions and integrations listed, [Get in touch](mailto:prasantdixit987@gmail.com) with me for contributing into your project or if you are starting any ambitious project.
 
+**[Ultralytics](https://github.com/ultralytics/ultralytics)**
+
+```embed
+url:  https://github.com/ultralytics/ultralytics/pull/7842
+desc: "YOLOv8 is designed to be fast, accurate, and easy to use, making it an excellent choice for a wide range of object detection and tracking, instance segmentation, image classification and pose estimation tasks."
+```
+
+```embed
+url:  https://github.com/ultralytics/ultralytics/pull/22796
+desc: "This feature lets users easily monitor inference FPS on video or stream outputs, improving real-time benchmarking and debugging, while staying fully optional to avoid any overhead for those who don’t need it."
+```
+
 **[Vector Recipes LanceDB](https://github.com/lancedb/vectordb-recipes)**
 
 ```embed
@@ -37,11 +49,4 @@ desc: "🚀CodiumAI PR-Agent: An AI-Powered 🤖 Tool for Automated Pull Request
 ```embed
 url:  https://github.com/cpacker/MemGPT/pull/455
 desc: "Create LLM agents with long-term memory and custom tools 📚🦙"
-```
-
-**[Ultralytics - Explorer API](https://github.com/ultralytics/ultralytics)**
-
-```embed
-url:  https://github.com/ultralytics/ultralytics/pull/7842
-desc: "YOLOv8 is designed to be fast, accurate, and easy to use, making it an excellent choice for a wide range of object detection and tracking, instance segmentation, image classification and pose estimation tasks."
 ```
